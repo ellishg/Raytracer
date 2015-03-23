@@ -8,23 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		E70634D41A9C3C32003014A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E70634D31A9C3C32003014A0 /* main.cpp */; };
+		E70634DF1A9C3F9F003014A0 /* SDLClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E70634DD1A9C3F9F003014A0 /* SDLClass.cpp */; };
+		E70634E11A9C412E003014A0 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70634E01A9C412E003014A0 /* SDL2.framework */; };
+		E724A13F1A9D704400034940 /* Raytracer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E724A13D1A9D704400034940 /* Raytracer.cpp */; };
+		E724A1411A9D94F800034940 /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E724A1401A9D94F800034940 /* Color.cpp */; };
+		E7BFA6F21AAB747200440D0B /* betterSuzanne.obj in Copy Files */ = {isa = PBXBuildFile; fileRef = E7BFA6F11AAB746A00440D0B /* betterSuzanne.obj */; };
+		E7C5B7B41AAACA1E00371AA8 /* cube.obj in Copy Files */ = {isa = PBXBuildFile; fileRef = E7C5B7B11AAAC9E000371AA8 /* cube.obj */; };
+		E7C5B7B51AAACA1E00371AA8 /* Suzanne.obj in Copy Files */ = {isa = PBXBuildFile; fileRef = E7C5B7B21AAAC9E000371AA8 /* Suzanne.obj */; };
+		E7C5B7B61AAACA1E00371AA8 /* torus.obj in Copy Files */ = {isa = PBXBuildFile; fileRef = E7C5B7B31AAAC9E000371AA8 /* torus.obj */; };
+		E7C5B7B91AAACABD00371AA8 /* circle.obj in Copy Files */ = {isa = PBXBuildFile; fileRef = E7C5B7B71AAACAB600371AA8 /* circle.obj */; };
+		E7C5B7BA1AAACABD00371AA8 /* cone.obj in Copy Files */ = {isa = PBXBuildFile; fileRef = E7C5B7B81AAACAB600371AA8 /* cone.obj */; };
+		E7C5B7BC1AAACBB000371AA8 /* plane.obj in Copy Files */ = {isa = PBXBuildFile; fileRef = E7C5B7BB1AAACBA800371AA8 /* plane.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E70634CE1A9C3C32003014A0 /* CopyFiles */ = {
+		E70634CE1A9C3C32003014A0 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				E7BFA6F21AAB747200440D0B /* betterSuzanne.obj in Copy Files */,
+				E7C5B7BC1AAACBB000371AA8 /* plane.obj in Copy Files */,
+				E7C5B7B91AAACABD00371AA8 /* circle.obj in Copy Files */,
+				E7C5B7BA1AAACABD00371AA8 /* cone.obj in Copy Files */,
+				E7C5B7B41AAACA1E00371AA8 /* cube.obj in Copy Files */,
+				E7C5B7B51AAACA1E00371AA8 /* Suzanne.obj in Copy Files */,
+				E7C5B7B61AAACA1E00371AA8 /* torus.obj in Copy Files */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E70634D01A9C3C32003014A0 /* NewRaytracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NewRaytracer; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70634D31A9C3C32003014A0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E70634DD1A9C3F9F003014A0 /* SDLClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDLClass.cpp; sourceTree = "<group>"; };
+		E70634DE1A9C3F9F003014A0 /* SDLClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLClass.h; sourceTree = "<group>"; };
+		E70634E01A9C412E003014A0 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		E70634E21A9C4632003014A0 /* Definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		E70634E31A9C4A0D003014A0 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		E70634E51A9C4B0A003014A0 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		E724A13D1A9D704400034940 /* Raytracer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Raytracer.cpp; sourceTree = "<group>"; };
+		E724A13E1A9D704400034940 /* Raytracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Raytracer.h; sourceTree = "<group>"; };
+		E724A1401A9D94F800034940 /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		E7BFA6F11AAB746A00440D0B /* betterSuzanne.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = betterSuzanne.obj; sourceTree = "<group>"; };
+		E7C5B7B11AAAC9E000371AA8 /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
+		E7C5B7B21AAAC9E000371AA8 /* Suzanne.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Suzanne.obj; sourceTree = "<group>"; };
+		E7C5B7B31AAAC9E000371AA8 /* torus.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = torus.obj; sourceTree = "<group>"; };
+		E7C5B7B71AAACAB600371AA8 /* circle.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = circle.obj; sourceTree = "<group>"; };
+		E7C5B7B81AAACAB600371AA8 /* cone.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cone.obj; sourceTree = "<group>"; };
+		E7C5B7BB1AAACBA800371AA8 /* plane.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plane.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70634E11A9C412E003014A0 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +77,8 @@
 		E70634C71A9C3C32003014A0 = {
 			isa = PBXGroup;
 			children = (
+				E70634E01A9C412E003014A0 /* SDL2.framework */,
+				E7C5B7B01AAAC9E000371AA8 /* Meshes */,
 				E70634D21A9C3C32003014A0 /* NewRaytracer */,
 				E70634D11A9C3C32003014A0 /* Products */,
 			);
@@ -58,8 +96,31 @@
 			isa = PBXGroup;
 			children = (
 				E70634D31A9C3C32003014A0 /* main.cpp */,
+				E724A13D1A9D704400034940 /* Raytracer.cpp */,
+				E724A13E1A9D704400034940 /* Raytracer.h */,
+				E70634E31A9C4A0D003014A0 /* Color.h */,
+				E724A1401A9D94F800034940 /* Color.cpp */,
+				E70634E51A9C4B0A003014A0 /* Vector.h */,
+				E70634E21A9C4632003014A0 /* Definitions.h */,
+				E70634DD1A9C3F9F003014A0 /* SDLClass.cpp */,
+				E70634DE1A9C3F9F003014A0 /* SDLClass.h */,
 			);
 			path = NewRaytracer;
+			sourceTree = "<group>";
+		};
+		E7C5B7B01AAAC9E000371AA8 /* Meshes */ = {
+			isa = PBXGroup;
+			children = (
+				E7C5B7BB1AAACBA800371AA8 /* plane.obj */,
+				E7C5B7B71AAACAB600371AA8 /* circle.obj */,
+				E7C5B7B81AAACAB600371AA8 /* cone.obj */,
+				E7C5B7B11AAAC9E000371AA8 /* cube.obj */,
+				E7C5B7B21AAAC9E000371AA8 /* Suzanne.obj */,
+				E7BFA6F11AAB746A00440D0B /* betterSuzanne.obj */,
+				E7C5B7B31AAAC9E000371AA8 /* torus.obj */,
+			);
+			name = Meshes;
+			path = NewRaytracer/Meshes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,7 +132,7 @@
 			buildPhases = (
 				E70634CC1A9C3C32003014A0 /* Sources */,
 				E70634CD1A9C3C32003014A0 /* Frameworks */,
-				E70634CE1A9C3C32003014A0 /* CopyFiles */,
+				E70634CE1A9C3C32003014A0 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -118,7 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E724A13F1A9D704400034940 /* Raytracer.cpp in Sources */,
+				E724A1411A9D94F800034940 /* Color.cpp in Sources */,
 				E70634D41A9C3C32003014A0 /* main.cpp in Sources */,
+				E70634DF1A9C3F9F003014A0 /* SDLClass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +266,10 @@
 		E70634D81A9C3C32003014A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +277,10 @@
 		E70634D91A9C3C32003014A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +304,7 @@
 				E70634D91A9C3C32003014A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
